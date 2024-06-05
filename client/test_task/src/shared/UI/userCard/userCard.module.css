@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@700&display=swap');
+
+.card {
+	width: 357px;
+	height: 314px;
+	border-radius: 16px;
+	padding: 24px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.card__info {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.card__info p {
+	margin-left: 10px;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--text-color);
+}
+
+.card__info-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+}

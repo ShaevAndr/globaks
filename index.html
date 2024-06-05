@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Список сотрудников</title>
+	</head>
+	<body>
+		<h1>Список сотрудников</h1>
+
+		<% _query = "for $collaborator in collaborators return $collaborator"; result = XQuery(_query); for (col in result) { %>
+		<p><%= col.fullname %></p>
+		<% } %>
+	</body>
+</html>

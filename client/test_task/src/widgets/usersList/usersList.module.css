@@ -1,0 +1,12 @@
+.users-list {
+	max-width: 1200px;
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 770px) {
+	.users-list {
+		justify-content: center;
+	}
+}

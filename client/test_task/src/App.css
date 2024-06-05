@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400&display=swap');
+:root {
+	--text-color: #8189a3;
+}
+
+.App {
+	max-width: 1150px;
+	margin: 0 auto;
+	font-family: 'Proxima Nova', sans-serif;
+}
